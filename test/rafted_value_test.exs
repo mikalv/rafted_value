@@ -15,7 +15,7 @@ defmodule RaftedValueTest do
     heartbeat_timeout:                   100,
     election_timeout:                    500,
     election_timeout_clock_drift_margin: 100,
-    max_retained_committed_logs:         10,
+    max_retained_committed_logs:         100,
     max_retained_command_results:        10,
   ])
 
